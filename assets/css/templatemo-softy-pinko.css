@@ -924,6 +924,7 @@ parallax & home seperator
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   text-align: center;
+  height: 260px;
 }
 
 .mini .mini-content .mini-box:hover {
@@ -949,6 +950,7 @@ parallax & home seperator
   display: block;
   font-size: 20px;
   margin-bottom: 15px;
+
 }
 
 .mini .mini-content .mini-box span {
