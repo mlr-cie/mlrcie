@@ -816,6 +816,9 @@ welcome
 features
 --------------------------------------------- 
 */
+.feature-box {
+  margin-bottom: 20px;
+}
 .features-small-item {
   cursor: pointer;
   display: block;
@@ -831,8 +834,9 @@ features
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   position: relative;
-  margin-bottom: 30px;
-  height: 490px;
+  /* margin-bottom: 30px; */
+  /* height: 490px; */
+  height: 100%;
 }
 
 .features-small-item:hover .icon {
