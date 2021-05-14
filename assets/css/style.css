@@ -1659,3 +1659,37 @@ preloader
     opacity: 0;
   }
 }
+/* custom */
+.dropdown-menu {
+  text-align: center !important;
+  width: 100%;
+}
+.dropped ul li {
+  padding: 0px !important;
+}
+.dropdown-item.active {
+  background-color: transparent !important;
+}
+.btn-a-nav {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  display: block;
+  font-weight: 500;
+  font-size: 13px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  height: 40px;
+  line-height: 40px;
+  border: transparent;
+  letter-spacing: 1px;
+  outline: none;
+}
+button:focus {
+  border: none !important;
+  outline: none !important;
+}

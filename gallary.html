@@ -33,6 +33,12 @@
 
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/gallary.css" />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
@@ -64,7 +70,22 @@
               <!-- ***** Menu Start ***** -->
               <ul class="nav">
                 <li><a href="index.html#welcome">Home</a></li>
-                <li><a href="#" class="active">Gallary</a></li>
+                <li class="dropped dropdown">
+                  <a
+                    class="active dropdown-toggle"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Gallary</a
+                  >
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="team.html">Team</a></li>
+                    <li>
+                      <a class="dropdown-item" href="gallary.html">Events</a>
+                    </li>
+                  </ul>
+                </li>
                 <li><a href="index.html#features">About</a></li>
                 <li><a href="index.html#work-process">Work Process</a></li>
                 <li><a href="index.html#testimonials">Services</a></li>
