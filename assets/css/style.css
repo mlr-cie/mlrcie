@@ -1664,6 +1664,10 @@ preloader
   text-align: center !important;
   width: 100%;
 }
+.dropped {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
 .dropped ul li {
   padding: 0px !important;
 }
@@ -1688,6 +1692,7 @@ preloader
   border: transparent;
   letter-spacing: 1px;
   outline: none;
+  width: 100%;
 }
 button:focus {
   border: none !important;
