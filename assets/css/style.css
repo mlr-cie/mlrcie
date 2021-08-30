@@ -1517,7 +1517,12 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+  background: rgb(197, 213, 203);
+  background: linear-gradient(
+    112deg,
+    rgba(197, 213, 203, 1) 0%,
+    rgba(227, 224, 207, 1) 100%
+  );
   padding-top: 30px;
 }
 
@@ -1533,7 +1538,7 @@ footer .social li {
 }
 
 footer .social li a {
-  color: #9d5bd9;
+  color: #534b1b;
   text-align: center;
   background-color: #fff;
   width: 36px;
@@ -1549,8 +1554,11 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #ff589e;
-  color: #fff;
+  /* background-color: #ff589e;
+  color: #fff; */
+  background-color: #e3e0cf;
+  color: #000;
+  font-weight: bold;
 }
 
 footer .copyright {
@@ -1561,7 +1569,7 @@ footer .copyright {
   padding-bottom: 30px;
   font-weight: 400;
   font-size: 12px;
-  color: #fff;
+  color: #000;
   letter-spacing: 0.88px;
   text-transform: uppercase;
 }
