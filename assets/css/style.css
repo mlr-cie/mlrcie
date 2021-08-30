@@ -393,7 +393,9 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #8261ee;
+  background-color: #e3e0cf;
+  color: #000;
+  font-weight: bold;
 }
 
 a.main-button {
@@ -411,7 +413,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #ff589e;
+  background-color: #534b1b;
 }
 
 button.main-button {
@@ -515,7 +517,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #ff589e;
+  color: #534b1b;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -840,7 +842,7 @@ features
 }
 
 .features-small-item:hover .icon {
-  background-color: #ff589e;
+  background-color: #534b1b;
 }
 
 .features-small-item .icon {
