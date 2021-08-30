@@ -382,7 +382,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #ff589e;
+  background-color: #534b1b;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -627,7 +627,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff589e;
+  color: #534b1b;
 }
 
 @media (max-width: 1200px) {
@@ -854,7 +854,7 @@ features
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #8261ee;
+  background: #e3e0cf;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
