@@ -934,7 +934,7 @@ parallax & home seperator
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/work-process-bg.png);
+  background-image: url(../images/work-process-bg.jpg);
   z-index: 2;
   top: -20%;
   left: -20%;
@@ -1058,7 +1058,7 @@ parallax & home seperator
   width: 140%;
   height: 140%;
   opacity: 0.9;
-  background-image: url(../images/fun-facts-bg.png);
+  background-image: url(../images/fun-facts-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
