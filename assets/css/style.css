@@ -196,7 +196,7 @@ body {
 }
 
 .section.colored {
-  background: #f2f2fe;
+  background: #9fa8a3;
 }
 
 .hr {
@@ -240,7 +240,7 @@ body {
 
 .center-text {
   text-align: center;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   color: #777;
   line-height: 28px;
@@ -254,7 +254,7 @@ body {
 
 .center-text p {
   font-size: 15px;
-  color: #777;
+  color: #534b1b;
   margin-bottom: 30px;
 }
 
@@ -1481,9 +1481,9 @@ contact
 }
 
 .contact-text {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
-  color: #6f8ba4;
+  color: #534b1b;
   letter-spacing: 0.6px;
   line-height: 26px;
 }
