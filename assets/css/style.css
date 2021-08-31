@@ -967,7 +967,7 @@ parallax & home seperator
 }
 
 .mini .mini-content .info h1 {
-  color: #fff;
+  color: #534b1b;
   font-weight: 500;
   font-size: 28px;
   letter-spacing: 0.25px;
@@ -977,10 +977,10 @@ parallax & home seperator
 .mini .mini-content .info p {
   letter-spacing: 1px;
   margin-bottom: 40px;
-  color: #fff;
+  color: #534b1b;
   letter-spacing: 0.25px;
   line-height: 26px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
 }
 
@@ -1127,7 +1127,7 @@ parallax & home seperator
   font-size: 36px;
   letter-spacing: 0.25px;
   margin-bottom: 10px;
-  color: #fff;
+  color: #534b1b;
   margin-top: 120px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -1138,8 +1138,8 @@ parallax & home seperator
 .counter .content .count-item span {
   display: block;
   text-align: center;
-  color: #fff;
-  font-weight: 500;
+  color: #534b1b;
+  font-weight: 600;
   font-size: 17px;
   letter-spacing: 0.25px;
 }
