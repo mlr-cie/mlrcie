@@ -1,6 +1,6 @@
  <textarea cols='170' rows='100'>
  <?php
-$dir = "assets/images/cie";
+$dir = "assets/images/pics2";
 
 // Open a directory, and read its contents
 if (is_dir($dir)){
@@ -22,7 +22,7 @@ $arfile = explode('-',$newFileName);
                  <div class="card">
                      <div class="card-body text-center">
                          <p>
-                             <img class="img-fluid" src="assets/images/cie/<?php echo $file ?>" alt="card image" />
+                             <img class="img-fluid" src="assets/images/pics2/<?php echo $file ?>" alt="card image" />
                          </p>
                          <h4 class="card-title"><?php echo $name ?></h4>
                          <p class="card-text"><?php echo $des ?></p>
