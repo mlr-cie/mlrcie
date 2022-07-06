@@ -1717,3 +1717,69 @@ button:focus {
   border: none !important;
   outline: none !important;
 }
+/* Core Team  */
+.title {
+  text-align: center;
+  text-transform: capitalize;
+  color: #534b1b;
+  margin: 10px 0;
+  position: relative;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 2px;
+  background-image: linear-gradient(to left, transparent 5%, #534b1b);
+  bottom: -10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.team-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+.member {
+  flex: 1 1 250px;
+  margin: 20px;
+  text-align: center;
+  padding: 20px 10px;
+  cursor: pointer;
+  max-width: 300px;
+  transition: all 0.3s;
+}
+
+.member:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-20px);
+  border-radius: 20px;
+}
+
+.member img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid #534b1b;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.member h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #534b1b;
+  margin: 15px 0;
+}
+
+.member p {
+  font-size: 15px;
+  color: #838383;
+  line-height: 1.6;
+}
+/* Core Team  */
